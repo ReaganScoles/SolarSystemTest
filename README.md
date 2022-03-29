@@ -1,2 +1,4 @@
 # SolarSystemTest
 Testing the generation of planets and solar systems, as well as space flight.
+
+In this project, I am experimenting with ways to generate planets, both randomly and by hand. I will be adding the ability to edit planets' features, such as their size, land/water features, craters, atmosphere, colors, etc. Each planet will orbit a star in the center of the solar system, and some of these planets will have moons. I might add the ability to build on these planets at a later date. That means, of course, that you will be able to get in and out of your spaceship and fly to each planet and land on them. This spaceship will also be customizeable.
