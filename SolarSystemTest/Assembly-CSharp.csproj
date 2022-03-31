@@ -58,6 +58,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Planet.cs" />
     <Compile Include="Assets\Scripts\TerrainFace.cs" />
+    <Compile Include="Assets\Scripts\ShapeSettings.cs" />
+    <Compile Include="Assets\Scripts\ColorSettings.cs" />
+    <Compile Include="Assets\Scripts\ShapeGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
