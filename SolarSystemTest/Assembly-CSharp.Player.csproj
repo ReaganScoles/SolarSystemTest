@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\ShapeSettings.cs" />
     <Compile Include="Assets\Scripts\ColorSettings.cs" />
     <Compile Include="Assets\Scripts\ShapeGenerator.cs" />
+    <Compile Include="Assets\Editors\PlanetEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
