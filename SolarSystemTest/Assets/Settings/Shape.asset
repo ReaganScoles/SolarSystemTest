@@ -13,3 +13,7 @@ MonoBehaviour:
   m_Name: Shape
   m_EditorClassIdentifier: 
   planetRadius: 1
+  noiseSettings:
+    strength: 1
+    roughness: 1
+    center: {x: 0, y: 0, z: 0}

@@ -62,6 +62,9 @@
     <Compile Include="Assets\Scripts\ColorSettings.cs" />
     <Compile Include="Assets\Scripts\ShapeGenerator.cs" />
     <Compile Include="Assets\Editors\PlanetEditor.cs" />
+    <Compile Include="Assets\Scripts\NoiseFilter.cs" />
+    <Compile Include="Assets\Scripts\Noise.cs" />
+    <Compile Include="Assets\Scripts\NoiseSettings.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
