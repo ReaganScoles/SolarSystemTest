@@ -645,8 +645,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resolution: 10
+  autoUpdate: 0
   shapeSettings: {fileID: 11400000, guid: 537ce8d1139fb6841ab7037ddae7deca, type: 2}
   colorSettings: {fileID: 11400000, guid: 6e92c263cb65df846bb209cfcf9f790b, type: 2}
+  shapeSettingsFoldout: 1
+  colorSettingsFoldout: 1
   meshFilters:
   - {fileID: 1639869211}
   - {fileID: 1931247646}
@@ -1004,7 +1007,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.90588236, g: 0.15332961, b: 0.09803922, a: 0}
+    - _Color: {r: 0.53700215, g: 0.09803922, b: 0.90588236, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
 --- !u!43 &803152183
@@ -1244,7 +1247,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.90588236, g: 0.15332961, b: 0.09803922, a: 0}
+    - _Color: {r: 0.53700215, g: 0.09803922, b: 0.90588236, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
 --- !u!43 &958548930
@@ -1648,7 +1651,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.90588236, g: 0.15332961, b: 0.09803922, a: 0}
+    - _Color: {r: 0.53700215, g: 0.09803922, b: 0.90588236, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
 --- !u!1 &1576841825
@@ -1967,7 +1970,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.90588236, g: 0.15332961, b: 0.09803922, a: 0}
+    - _Color: {r: 0.53700215, g: 0.09803922, b: 0.90588236, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
 --- !u!1 &1931247645
@@ -2205,7 +2208,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.90588236, g: 0.15332961, b: 0.09803922, a: 0}
+    - _Color: {r: 0.53700215, g: 0.09803922, b: 0.90588236, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
 --- !u!21 &2138879462
@@ -2281,6 +2284,6 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.90588236, g: 0.15332961, b: 0.09803922, a: 0}
+    - _Color: {r: 0.53700215, g: 0.09803922, b: 0.90588236, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

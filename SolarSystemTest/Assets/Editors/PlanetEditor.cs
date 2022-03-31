@@ -7,27 +7,49 @@ using UnityEditor;
 public class PlanetEditor : Editor
 {
     Planet planet;
+    Editor shapeEditor;
+    Editor colorEditor;
 
     public override void OnInspectorGUI()
     {
-        base.OnInspectorGUI();
-
-        DrawSettingsEditor(planet.shapeSettings, planet.OnShapeSettingsUpdated);
-        DrawSettingsEditor(planet.colorSettings, planet.OnColorSettingsUpdated);
-    }
-
-    void DrawSettingsEditor(Object settings, System.Action onSettingsUpdated)
-    {
         using (var check = new EditorGUI.ChangeCheckScope())
         {
-            Editor editor = CreateEditor(settings);
-            editor.OnInspectorGUI();
-
-            if(check.changed)
+            base.OnInspectorGUI();
+            if (check.changed)
             {
-                if(onSettingsUpdated != null)
+                planet.GeneratePlanet();
+            }
+        }
+
+        if (GUILayout.Button("Generate Planet"))
+        {
+            planet.GeneratePlanet();
+        }
+
+        DrawSettingsEditor(planet.shapeSettings, planet.OnShapeSettingsUpdated, ref planet.shapeSettingsFoldout, ref shapeEditor);
+        DrawSettingsEditor(planet.colorSettings, planet.OnColorSettingsUpdated, ref planet.colorSettingsFoldout, ref colorEditor);
+    }
+
+    void DrawSettingsEditor(Object settings, System.Action onSettingsUpdated, ref bool foldout, ref Editor editor)
+    {
+        if(settings != null)
+        {
+            foldout = EditorGUILayout.InspectorTitlebar(foldout, settings);
+
+            using (var check = new EditorGUI.ChangeCheckScope())
+            {
+                if (foldout)
                 {
-                    onSettingsUpdated();
+                    CreateCachedEditor(settings, null, ref editor);
+                    editor.OnInspectorGUI();
+
+                    if (check.changed)
+                    {
+                        if (onSettingsUpdated != null)
+                        {
+                            onSettingsUpdated();
+                        }
+                    }
                 }
             }
         }
