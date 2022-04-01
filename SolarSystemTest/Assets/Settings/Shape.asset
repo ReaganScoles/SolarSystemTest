@@ -15,6 +15,7 @@ MonoBehaviour:
   planetRadius: 2.44
   noiseLayers:
   - enabled: 1
+    useFirstLayerAsMask: 0
     noiseSettings:
       strength: 0.15
       numLayers: 4
@@ -24,11 +25,12 @@ MonoBehaviour:
       center: {x: 0, y: 0, z: 0}
       minValue: 0.94
   - enabled: 1
+    useFirstLayerAsMask: 1
     noiseSettings:
-      strength: 0.36
+      strength: 5.37
       numLayers: 5
       baseRoughness: 1.08
       roughness: 1.95
       persistence: 0.5
-      center: {x: 0, y: 0, z: 0}
+      center: {x: 1.11, y: 0, z: 0}
       minValue: 1.21
