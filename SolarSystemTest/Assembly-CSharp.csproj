@@ -62,9 +62,14 @@
     <Compile Include="Assets\Scripts\ColorSettings.cs" />
     <Compile Include="Assets\Scripts\ShapeGenerator.cs" />
     <Compile Include="Assets\Editors\PlanetEditor.cs" />
-    <Compile Include="Assets\Scripts\NoiseFilter.cs" />
+    <Compile Include="Assets\Scripts\SimpleNoiseFilter.cs" />
     <Compile Include="Assets\Scripts\Noise.cs" />
     <Compile Include="Assets\Scripts\NoiseSettings.cs" />
+    <Compile Include="Assets\Scripts\RigidNoiseFilter.cs" />
+    <Compile Include="Assets\Scripts\iNoiseFilter.cs" />
+    <Compile Include="Assets\Scripts\NoiseFilterFactory.cs" />
+    <Compile Include="Assets\Scripts\ConditionalHideAttribute.cs" />
+    <Compile Include="Assets\Editors\ConditionalHidePropertyDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
