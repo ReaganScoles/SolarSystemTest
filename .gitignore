@@ -41,4 +41,4 @@ SolarSystemTest/Temp/UnityLockfile
 # $ git config --global core.autocrlf input
 
 # Uncomment this line on a Windows-only project to turn off this auto-converting CRLF to LF functionality:
-$ git config --global core.autocrlf false
+git config --global core.autocrlf false
