@@ -1,15 +1,3 @@
-# Uncomment this line to fix the "LF will be replaced by CRLF" errors when checking out code and pushing to the GitHub repository on a Windows machine.
-# By default, Windows uses CRLF line endings. This line automatically converts CRLF line endings to LF on Windows machines.
-# $ git config --global core.autocrlf true
-
-# Uncomment this line to convert CRLF line endings to LF on commit, but not the other way around, on a Mac or Linux machine.
-# By default, Mac/Linux machines use LF line endings. So, you don't want it to automatically convert the files. Sometimes, a CRLF file gets introduced, and you would want this in that instance:
-# $ git config --global core.autocrlf input
-
-# Uncomment this line on a Windows-only project to turn off this auto-converting CRLF to LF functionality:
-$ git config --global core.autocrlf false
-
-
 # Prerequisites
 *.d
 
@@ -43,3 +31,14 @@ $ git config --global core.autocrlf false
 *.out
 *.app
 SolarSystemTest/Temp/UnityLockfile
+
+# Uncomment this line to fix the "LF will be replaced by CRLF" errors when checking out code and pushing to the GitHub repository on a Windows machine.
+# By default, Windows uses CRLF line endings. This line automatically converts CRLF line endings to LF on Windows machines.
+# $ git config --global core.autocrlf true
+
+# Uncomment this line to convert CRLF line endings to LF on commit, but not the other way around, on a Mac or Linux machine.
+# By default, Mac/Linux machines use LF line endings. So, you don't want it to automatically convert the files. Sometimes, a CRLF file gets introduced, and you would want this in that instance:
+# $ git config --global core.autocrlf input
+
+# Uncomment this line on a Windows-only project to turn off this auto-converting CRLF to LF functionality:
+$ git config --global core.autocrlf false
